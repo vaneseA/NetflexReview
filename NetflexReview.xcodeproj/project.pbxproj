@@ -16,6 +16,7 @@
 		A8E89EC027A9688A00D9736E /* NetflexReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89EBF27A9688A00D9736E /* NetflexReviewTests.swift */; };
 		A8E89ECA27A9688A00D9736E /* NetflexReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89EC927A9688A00D9736E /* NetflexReviewUITests.swift */; };
 		A8E89ECC27A9688A00D9736E /* NetflexReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89ECB27A9688A00D9736E /* NetflexReviewUITestsLaunchTests.swift */; };
+		A8E89ED927A9692400D9736E /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89ED827A9692400D9736E /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A8E89EC527A9688A00D9736E /* NetflexReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflexReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E89EC927A9688A00D9736E /* NetflexReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflexReviewUITests.swift; sourceTree = "<group>"; };
 		A8E89ECB27A9688A00D9736E /* NetflexReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflexReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8E89ED827A9692400D9736E /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A8E89EAB27A9688900D9736E /* ContentView.swift */,
 				A8E89EAD27A9688A00D9736E /* Assets.xcassets */,
 				A8E89EB227A9688A00D9736E /* Persistence.swift */,
+				A8E89ED827A9692400D9736E /* MyWebView.swift */,
 				A8E89EB427A9688A00D9736E /* NetflexReview.xcdatamodeld */,
 				A8E89EAF27A9688A00D9736E /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				A8E89EB327A9688A00D9736E /* Persistence.swift in Sources */,
 				A8E89EAC27A9688900D9736E /* ContentView.swift in Sources */,
+				A8E89ED927A9692400D9736E /* MyWebView.swift in Sources */,
 				A8E89EB627A9688A00D9736E /* NetflexReview.xcdatamodeld in Sources */,
 				A8E89EAA27A9688900D9736E /* NetflexReviewApp.swift in Sources */,
 			);
