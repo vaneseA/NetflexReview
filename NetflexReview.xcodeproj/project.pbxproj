@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A839B61D27B402E200C2656D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839B61C27B402E200C2656D /* Home.swift */; };
+		A839B61F27B4033800C2656D /* NetflixRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839B61E27B4033800C2656D /* NetflixRow.swift */; };
+		A839B62327B4127F00C2656D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839B62227B4127F00C2656D /* ColorExtension.swift */; };
+		A839B62627B4132800C2656D /* Netflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839B62527B4132800C2656D /* Netflix.swift */; };
 		A8E89EAA27A9688900D9736E /* NetflexReviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89EA927A9688900D9736E /* NetflexReviewApp.swift */; };
 		A8E89EAC27A9688900D9736E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E89EAB27A9688900D9736E /* ContentView.swift */; };
 		A8E89EAE27A9688A00D9736E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E89EAD27A9688A00D9736E /* Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A839B61C27B402E200C2656D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A839B61E27B4033800C2656D /* NetflixRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixRow.swift; sourceTree = "<group>"; };
+		A839B62227B4127F00C2656D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A839B62527B4132800C2656D /* Netflix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix.swift; sourceTree = "<group>"; };
 		A8E89EA627A9688900D9736E /* NetflexReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflexReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E89EA927A9688900D9736E /* NetflexReviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflexReviewApp.swift; sourceTree = "<group>"; };
 		A8E89EAB27A9688900D9736E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A839B61B27B402B900C2656D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A839B61C27B402E200C2656D /* Home.swift */,
+				A839B61E27B4033800C2656D /* NetflixRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A839B62027B4125400C2656D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A839B62127B4126300C2656D /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A839B62127B4126300C2656D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A839B62227B4127F00C2656D /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A839B62427B4130200C2656D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A839B62527B4132800C2656D /* Netflix.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A8E89E9D27A9688900D9736E = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +141,9 @@
 		A8E89EA827A9688900D9736E /* NetflexReview */ = {
 			isa = PBXGroup;
 			children = (
+				A839B62427B4130200C2656D /* Model */,
+				A839B62027B4125400C2656D /* Helper */,
+				A839B61B27B402B900C2656D /* Home */,
 				A8E89EA927A9688900D9736E /* NetflexReviewApp.swift */,
 				A8E89EAB27A9688900D9736E /* ContentView.swift */,
 				A8E89EAD27A9688A00D9736E /* Assets.xcassets */,
@@ -269,8 +313,12 @@
 				A8E89EB327A9688A00D9736E /* Persistence.swift in Sources */,
 				A8E89EAC27A9688900D9736E /* ContentView.swift in Sources */,
 				A8E89ED927A9692400D9736E /* MyWebView.swift in Sources */,
+				A839B62327B4127F00C2656D /* ColorExtension.swift in Sources */,
+				A839B62627B4132800C2656D /* Netflix.swift in Sources */,
 				A8E89EB627A9688A00D9736E /* NetflexReview.xcdatamodeld in Sources */,
+				A839B61D27B402E200C2656D /* Home.swift in Sources */,
 				A8E89EAA27A9688900D9736E /* NetflexReviewApp.swift in Sources */,
+				A839B61F27B4033800C2656D /* NetflixRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
